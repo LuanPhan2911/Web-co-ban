@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+main .left-cell{
+    width: 70%;
+}
+.left-cell article img{
+    width: 700px;
+}
+main .right-cell{
+   width: 30%;
+}

@@ -6,12 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="tintuc.css">
   <title>Tin tức</title>
 </head>
 
 <body>
   <header>
     <img src="./images/logo.png" />
+    <img class="img-1" src="./images/header-img1.png" />
+    <img class="img-2" src="./images/header-img2.png" />
+    <img class="img-3" src="./images/header-img3.png" />
     <nav>
       <a href="./trangchu.html"> Trang chủ </a>
       <a href="./gioithieu.html"> Giới thiệu </a>
@@ -20,92 +25,15 @@
       <a href="./dangnhap.html"> Đăng nhập </a>
       <a href="./dangky.html"> Đăng kí </a>
       <a href="./lienhe.html"> Liên hệ </a>
+      <div class="search">
+        <input placeholder="Nhập nội dung cần tìm" />
+        <i class="btn-search fa fa-search"></i>
+        <i class="btn-cart fa fa-shopping-cart"></i>
+      </div>
     </nav>
   </header>
   <main>
-    <h1>Tin tức</h1>
-    <article>
-      <section>
-        <div>
-          <h2>Lộ diện siêu năng lực từ trái xoài!</h2>
-          <img src="./images/tintuc/news1.jpg" alt="" width="400px" />
-
-          <p>
-            Xoài là một trong những cây ăn quả chủ lực của Đồng bằng sông Cửu Long(DBSCL) chiếm
-            khoảng 48% tổng diện tích xoài cả nước. Trong đó, tỉnh Đồng Tháp hiện có diện tích
-            trồng xoài khoảng 12.171ha - lớn nhất vùng DBSCL với sản lượng gần 124 ngàn tấn.
-            <a href="#">Xem chi tiết</a>
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-
-          <h2>Sữa các loại hạt-món ngon cho hệ miễn dịch khỏe</h2>
-          <img src="./images/tintuc/news2.jpg" alt="" width="400px" />
-          <p>
-            Các loại sữa hạt ngày càng trở nên quen thuộc với mọi người, bởi hàm lượng dinh dưỡng cao, và
-            lành tính. Với thị trường sữa, hạt đa dạng, phong phú, hôm nay chúng ta cùng điểm qua xem coi
-            có các loại sữa hạt nào, và loại nào bổ dưỡng cho sức khỏe?
-            <a href="#">Xem chi tiết</a>
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-
-          <h2>Sữa chua Kiwi- Món quà cho sức khỏe</h2>
-          <img src="./images/tintuc/news3.jpg" alt="" width="400px" />
-          <p>
-            Kiwi thành phần dinh dưỡng rất cao so với các loại hoa quả khác. Hàm lượng vitamin C cao
-            cho hệ miễn dịch khỏe mạnh cùng với chất sơ hỗ trợ tiêu hóa. Siêu quả Kiwi cho cả nhà siêu khỏe, 100%
-            vitamin C cho cả nhà cần thiết mỗi ngày
-            <a href="#">Xem chi tiết</a>
-          </p>
-        </div>
-      </section>
-    </article>
-    <article>
-      <section>
-        <div>
-
-          <h2>Ra mắt app sữa chua Freeze trên nền tảng IOS</h2>
-          <img src="./images/tintuc//news4.jpg" alt="" width="400px" />
-          <p>
-            Nhằm mang đến cho tất cả khách hàng những trải nghiệm thú vị nhất Công ti sữa chua Freeze giới thiệu app
-            đặt
-            hàng độc đáo, giúp khách hàng mua sắm được mọi lúc mọi nơi với nhiều tiện ích.
-            <a href="#">Xem chi tiết</a>
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-
-          <h2>Đăng kí thành viên- nhận ngay ưu đãi</h2>
-          <img src="./images/tintuc/news5.jpg" alt="" width="400px" />
-          <p>
-            Công ty sữa chua hân hạnh mang đến chương trình "đăng kí thành viên" với nhiều ưu đãi độc đáo. Member
-            Card- thẻ thành viên
-            nhà sữa chua Freeze dành cho tất cả khách hàng đăng kí tài khoảng và phát sinh đơn hàng.
-            <a href="#">Xem chi tiết</a>
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-
-          <h2>Tuyển giám sát chuỗi cửa hàng</h2>
-          <img src="./images/tintuc/news6.jpg" alt="" width="400px" />
-          <p>
-            Tuyển Giám Sát chuỗi cửa hàng: -tại khu vực thành phố Hải Phòng & các tỉnh lân cận- Số lượng:
-            01 MÔ TẢ: Giám sát hoạt động kinh doanh các cửa hàng: Kiểm tra lịch làm việc của các cửa hàng.
-            <a href="#">Xem chi tiết</a>
-          </p>
-        </div>
-      </section>
-    </article>
-    <aside>
+    <aside class="left-side">
       <section>
         <div>
 
@@ -123,16 +51,122 @@
           </p>
         </div>
       </section>
-      </á>
+    </aside>
+    <aside class="main-side">
+      <article>
+        <h1>Tin tức</h1>
+        <section>
+          <div>
+            <h2>Lộ diện siêu năng lực từ trái xoài!</h2>
+            <p>
+              Xoài là một trong những cây ăn quả chủ lực của Đồng bằng sông Cửu Long(DBSCL) chiếm
+              khoảng 48% tổng diện tích xoài cả nước. Trong đó, tỉnh Đồng Tháp hiện có diện tích
+              trồng xoài khoảng 12.171ha - lớn nhất vùng DBSCL với sản lượng gần 124 ngàn tấn.
+              <a href="#">Xem chi tiết</a>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div>
+
+            <h2>Sữa các loại hạt-món ngon cho hệ miễn dịch khỏe</h2>
+            <p>
+              Các loại sữa hạt ngày càng trở nên quen thuộc với mọi người, bởi hàm lượng dinh dưỡng cao, và
+              lành tính. Với thị trường sữa, hạt đa dạng, phong phú, hôm nay chúng ta cùng điểm qua xem coi
+              có các loại sữa hạt nào, và loại nào bổ dưỡng cho sức khỏe?
+              <a href="#">Xem chi tiết</a>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div>
+
+            <h2>Sữa chua Kiwi- Món quà cho sức khỏe</h2>
+            <p>
+              Kiwi thành phần dinh dưỡng rất cao so với các loại hoa quả khác. Hàm lượng vitamin C cao
+              cho hệ miễn dịch khỏe mạnh cùng với chất sơ hỗ trợ tiêu hóa. Siêu quả Kiwi cho cả nhà siêu khỏe, 100%
+              vitamin C cho cả nhà cần thiết mỗi ngày
+              <a href="#">Xem chi tiết</a>
+            </p>
+          </div>
+        </section>
+      </article>
+      <article>
+        <section>
+          <div>
+
+            <h2>Ra mắt app sữa chua Freeze trên nền tảng IOS</h2>
+            <p>
+              Nhằm mang đến cho tất cả khách hàng những trải nghiệm thú vị nhất Công ti sữa chua Freeze giới thiệu app
+              đặt
+              hàng độc đáo, giúp khách hàng mua sắm được mọi lúc mọi nơi với nhiều tiện ích.
+              <a href="#">Xem chi tiết</a>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div>
+
+            <h2>Đăng kí thành viên- nhận ngay ưu đãi</h2>
+            <p>
+              Công ty sữa chua hân hạnh mang đến chương trình "đăng kí thành viên" với nhiều ưu đãi độc đáo. Member
+              Card- thẻ thành viên
+              nhà sữa chua Freeze dành cho tất cả khách hàng đăng kí tài khoảng và phát sinh đơn hàng.
+              <a href="#">Xem chi tiết</a>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div>
+
+            <h2>Tuyển giám sát chuỗi cửa hàng</h2>
+            <p>
+              Tuyển Giám Sát chuỗi cửa hàng: -tại khu vực thành phố Hải Phòng & các tỉnh lân cận- Số lượng:
+              01 MÔ TẢ: Giám sát hoạt động kinh doanh các cửa hàng: Kiểm tra lịch làm việc của các cửa hàng.
+              <a href="#">Xem chi tiết</a>
+            </p>
+          </div>
+        </section>
+      </article>
+    </aside>
+    <aside class="right-side">
+      <div>
+        <img src="./images/tintuc/news1.jpg" alt="" width="400px" />
+      </div>
+      <div>
+        <img src="./images/tintuc/news2.jpg" alt="" width="400px" />
+      </div>
+      <div>
+        <img src="./images/tintuc/news3.jpg" alt="" width="400px" />
+      </div>
+      <div>
+        <img src="./images/tintuc/news4.jpg" alt="" width="400px" />
+      </div>
+      <div>
+        <img src="./images/tintuc/news5.jpg" alt="" width="400px" />
+      </div>
+      <div>
+        <img src="./images/tintuc/news6.jpg" alt="" width="400px" />
+      </div>
+    </aside>
+
+
+
   </main>
   <footer>
-    <div>
-      &copy; 2021 Bản quyền thuộc về FreezeVN
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Pinterest</a>
-      <a href="./trangchu.html">Về đầu trang</a>
-    </div>
+    &copy; 2021 Bản quyền thuộc về FreezeVN
+    <a href="#">
+      <i class="icon-footer fa fa-facebook"></i>
+    </a>
+    <a href="#">
+      <i class="icon-footer fa fa-twitter"></i>
+    </a>
+    <a href="#">
+      <i class="icon-footer fa fa-pinterest"></i>
+    </a>
+    <a href="./trangchu.html" class="redirect-home">
+      <img src="./images/top.png" class="redirect-home-icon" />
+    </a>
   </footer>
 
 </body>

@@ -1,0 +1,28 @@
+main article{
+    display: flex;
+}
+main section{
+    margin: 0;
+    padding: 0;
+    width: 33%;
+}
+main section div{
+    display: flex;
+    margin: 3px;
+    border: 1px solid #bdd7d9;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+}
+main section div p{
+    text-align: justify;
+    margin: 4px;
+    padding: 3px;
+}
+main section div span{
+    margin: 4px;
+    padding: 3px;
+    line-height: 2;
+    background: radial-gradient(circle, #cddc39 0%, #fff 100%);
+}

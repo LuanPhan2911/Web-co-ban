@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="lienhe.css">
     <title>Liên hệ</title>
 </head>
 
 <body>
     <header>
         <img src="./images/logo.png" />
+        <img class="img-1" src="./images/header-img1.png" />
+        <img class="img-2" src="./images/header-img2.png" />
+        <img class="img-3" src="./images/header-img3.png" />
         <nav>
             <a href="./trangchu.html"> Trang chủ </a>
             <a href="./gioithieu.html"> Giới thiệu </a>
@@ -20,74 +25,82 @@
             <a href="./dangnhap.html"> Đăng nhập </a>
             <a href="./dangky.html"> Đăng kí </a>
             <a href="./lienhe.html"> Liên hệ </a>
+            <div class="search">
+                <input placeholder="Nhập nội dung cần tìm" />
+                <i class="btn-search fa fa-search"></i>
+                <i class="btn-cart fa fa-shopping-cart"></i>
+            </div>
         </nav>
     </header>
     <main>
-        <h1>
-            Liên hệ
-        </h1>
-        <img src="./images/lienhe/check-in.png" />
-        <h1>Địa chỉ: 0123, Tòa ABC, TP. Cần Thơ</h1>
-        <p>Nếu bạn muốn góp ý xin vui lòng liên hệ thư điện tử hoặc sử
-            dụng biểu mẫu bên dưới. Xin cảm ơn.
-        </p>
-        <form action="#" enctype="multipart/form-data" method="post">
-            <fieldset>
-                <legend>Góp ý</legend>
-                <table>
-                    <tr>
-                        <td>
-                            <label for="name">Họ tên</label>
-                        </td>
-                        <td>
-                            <input type="text" id="name" placeholder="Vui lòng nhập Họ tên " name="name" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="email">Email</label>
-                        </td>
-                        <td>
-                            <input type="email" id="email" placeholder="Vui lòng nhập địa chỉ email" name="email" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="topic">Chủ đề</label>
-                        </td>
-                        <td>
-                            <select name="topic" id="" size="1">
-                                <option value="">Về sản phẩm và dịch vụ</option>
-                                <option value="">Về ưu đãi thành viên</option>
-                                <option value="">Về tin tuyển dụng</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <p><label for="content">Nội dung</label></p>
-                            <textarea id="content" placeholder="Nội dung cần liên hệ" rows="7" cols="50">
+        <article>
+            <h1>
+                Liên hệ
+            </h1>
+            <div class="underline"></div>
+            <div>
+                <img src="./images/lienhe/check-in.png" class="location-icon" />
+                <b>Địa chỉ: 0123, Tòa ABC, TP. Cần Thơ</b>
+                <span>Nếu bạn muốn góp ý xin vui lòng liên hệ thư điện tử hoặc sử
+                    dụng biểu mẫu bên dưới. Xin cảm ơn.
+                </span>
+            </div>
 
-                            </textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <button type="submit">Gửi</button>
-                        </td>
-                    </tr>
-                </table>
-            </fieldset>
-        </form>
+            <h1>Góp ý</h1>
+            <div class="underline"></div>
+            <form action="#" enctype="multipart/form-data" method="post">
+                <div>
+                    <i class="input-icon fa fa-user">
+
+                    </i>
+                    <input type="text" id="name" placeholder="Vui lòng nhập Họ tên " name="name" />
+                </div>
+                <div>
+                    <i class="input-icon fa fa-envelope">
+
+                    </i>
+                    <input type="email" id="email" placeholder="Vui lòng nhập địa chỉ email" name="email" />
+                </div>
+                <div>
+                    <i class="input-icon fa fa-list">
+
+                    </i>
+                    <select name="topic" id="" size="1">
+                        <option value="">Về sản phẩm và dịch vụ</option>
+                        <option value="">Về ưu đãi thành viên</option>
+                        <option value="">Về tin tuyển dụng</option>
+                    </select>
+                </div>
+                <div>
+                    <p>
+                        <i class="input-icon fa fa-file-text">
+                        </i>
+                    </p>
+
+                    <textarea id="content" placeholder="Nội dung cần liên hệ" rows="7" cols="50"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Gửi</button>
+                </div>
+
+            </form>
+        </article>
+
     </main>
     <footer>
-        <div>
-            &copy; 2021 Bản quyền thuộc về FreezeVN
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Pinterest</a>
-            <a href="./trangchu.html">Về đầu trang</a>
-        </div>
+        &copy; 2021 Bản quyền thuộc về FreezeVN
+        <a href="#">
+            <i class="icon-footer fa fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="icon-footer fa fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="icon-footer fa fa-pinterest"></i>
+        </a>
+        <a href="./trangchu.html" class="redirect-home">
+            <img src="./images/top.png" class="redirect-home-icon" />
+        </a>
     </footer>
 </body>
 

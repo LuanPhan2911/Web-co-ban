@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="sanpham.css">
   <title>Sản phẩm</title>
 </head>
 
@@ -13,6 +15,9 @@
 
   <header>
     <img src="./images/logo.png" />
+    <img class="img-1" src="./images/header-img1.png" />
+    <img class="img-2" src="./images/header-img2.png" />
+    <img class="img-3" src="./images/header-img3.png" />
     <nav>
       <a href="./trangchu.html"> Trang chủ </a>
       <a href="./gioithieu.html"> Giới thiệu </a>
@@ -21,10 +26,16 @@
       <a href="./dangnhap.html"> Đăng nhập </a>
       <a href="./dangky.html"> Đăng kí </a>
       <a href="./lienhe.html"> Liên hệ </a>
+      <div class="search">
+        <input placeholder="Nhập nội dung cần tìm" />
+        <i class="btn-search fa fa-search"></i>
+        <i class="btn-cart fa fa-shopping-cart"></i>
+      </div>
     </nav>
   </header>
   <main>
     <h1>Sản phẩm truyền thống</h1>
+    <div class="underline"></div>
     <article>
       <section>
         <div>
@@ -55,11 +66,11 @@
             dưỡng này.
             <a href="#">Xem chi tiết</a>
           </p>
-          <spanv>
+          <span>
             Số lượng:
             <input type="number" min="0" max="100" value="0" />
             <button>Đặt hàng</button>
-            </span>
+          </span>
         </div>
       </section>
       <section>
@@ -72,15 +83,16 @@
             ăn sinh tố dưa lưới thường có làn da min màn.
             <a href="#">Xem chi tiết</a>
           </p>
-          <spanv>
+          <span>
             Số lượng:
             <input type="number" min="0" max="100" value="0" />
             <button>Đặt hàng</button>
-            </span>
+          </span>
         </div>
       </section>
     </article>
     <h1>Sản phẩm mới</h1>
+    <div class="underline"></div>
     <article>
       <section>
         <div>
@@ -111,11 +123,11 @@
             lông tơ và kích thước lá có thể khác nhau theo từng loại giống.
             <a href="#">Xem chi tiết</a>
           </p>
-          <spanv>
+          <span>
             Số lượng:
             <input type="number" min="0" max="100" value="0" />
             <button>Đặt hàng</button>
-            </span>
+          </span>
         </div>
       </section>
       <section>
@@ -128,15 +140,16 @@
             và vitamin B6( những chất này tốt cho sức khỏe của tim)
             <a href="#">Xem chi tiết</a>
           </p>
-          <spanv>
+          <span>
             Số lượng:
             <input type="number" min="0" max="100" value="0" />
             <button>Đặt hàng</button>
-            </span>
+          </span>
         </div>
       </section>
     </article>
     <h1>Sản phẩm trái cây</h1>
+    <div class="underline"></div>
     <article>
       <section>
         <div>
@@ -165,11 +178,11 @@
             Bên cạnh đó, chất sơ còn giúp quá trình giải độc gan và hệ tiêu hóa.
             <a href="#">Xem chi tiết</a>
           </p>
-          <spanv>
+          <span>
             Số lượng:
             <input type="number" min="0" max="100" value="0" />
             <button>Đặt hàng</button>
-            </span>
+          </span>
         </div>
       </section>
       <section>
@@ -182,23 +195,29 @@
             Dứa là cây bản địa của đất nước Nam Mỹ.
             <a href="#">Xem chi tiết</a>
           </p>
-          <spanv>
+          <span>
             Số lượng:
             <input type="number" min="0" max="100" value="0" />
             <button>Đặt hàng</button>
-            </span>
+          </span>
         </div>
       </section>
     </article>
   </main>
   <footer>
-    <div>
-      &copy; 2021 Bản quyền thuộc về FreezeVN
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Pinterest</a>
-      <a href="./trangchu.html">Về đầu trang</a>
-    </div>
+    &copy; 2021 Bản quyền thuộc về FreezeVN
+    <a href="#">
+      <i class="icon-footer fa fa-facebook"></i>
+    </a>
+    <a href="#">
+      <i class="icon-footer fa fa-twitter"></i>
+    </a>
+    <a href="#">
+      <i class="icon-footer fa fa-pinterest"></i>
+    </a>
+    <a href="./trangchu.html" class="redirect-home">
+      <img src="./images/top.png" class="redirect-home-icon" />
+    </a>
   </footer>
 </body>
 

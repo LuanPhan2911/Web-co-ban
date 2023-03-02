@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-icon{
+    background-color: #cddc39 ;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+} 
+form table td{
+    text-align: center;
+}

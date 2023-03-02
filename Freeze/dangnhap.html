@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="dangnhap.css">
     <title>Đăng nhập</title>
 </head>
 
 <body>
     <header>
         <img src="./images/logo.png" />
+        <img class="img-1" src="./images/header-img1.png" />
+        <img class="img-2" src="./images/header-img2.png" />
+        <img class="img-3" src="./images/header-img3.png" />
         <nav>
             <a href="./trangchu.html"> Trang chủ </a>
             <a href="./gioithieu.html"> Giới thiệu </a>
@@ -20,64 +25,73 @@
             <a href="./dangnhap.html"> Đăng nhập </a>
             <a href="./dangky.html"> Đăng kí </a>
             <a href="./lienhe.html"> Liên hệ </a>
+            <div class="search">
+                <input placeholder="Nhập nội dung cần tìm" />
+                <i class="btn-search fa fa-search"></i>
+                <i class="btn-cart fa fa-shopping-cart"></i>
+            </div>
         </nav>
     </header>
     <main>
-
+        <h1>Đăng nhập</h1>
         <form action="#" enctype="application/x-www-form-urlencoded" method="post">
-            <fieldset>
-                <legend>Đăng nhập</legend>
 
-                <table>
-                    <tr>
-                        <td colspan="2">
-                            <img src="./images/dangnhap/userlogin.png" width="400px" />
-                        </td>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <img src="./images/dangnhap/userlogin.png" width="400px" />
+                    </td>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="email">Email</label>
-                        </td>
-                        <td>
-                            <input type="email" id="email" placeholder="Nhập email" name="emal" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="password">Mật khẩu</label>
-                        </td>
-                        <td>
-                            <input type="password" id="password" placeholder="Nhập mật khẩu" name="password" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <button type="submit">Đăng nhập</button>
-                            <button type="reset">Hủy</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            Bạn quên <a href="#">Mật khẩu?</a>
-                            <input type="checkbox" name="remember" />
-                            Ghi nhớ đăng nhâp cho lần sau
-                        </td>
-                    </tr>
-                </table>
-            </fieldset>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">
+                            <i class="input-icon fa fa-envelope"></i>
+                        </label>
+                        <input type="email" id="email" placeholder="Nhập email" name="emal" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">
+                            <i class="input-icon fa fa-key"></i>
+                        </label>
+
+                        <input type="password" id="password" placeholder="Nhập mật khẩu" name="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Đăng nhập</button>
+                        <button type="reset">Hủy</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Bạn quên <a href="#">Mật khẩu?</a>
+                        <input type="checkbox" name="remember" />
+                        Ghi nhớ đăng nhâp cho lần sau
+                    </td>
+                </tr>
+            </table>
         </form>
 
 
     </main>
     <footer>
-        <div>
-            &copy; 2021 Bản quyền thuộc về FreezeVN
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Pinterest</a>
-            <a href="./trangchu.html">Về đầu trang</a>
-        </div>
+        &copy; 2021 Bản quyền thuộc về FreezeVN
+        <a href="#">
+            <i class="icon-footer fa fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="icon-footer fa fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="icon-footer fa fa-pinterest"></i>
+        </a>
+        <a href="./trangchu.html" class="redirect-home">
+            <img src="./images/top.png" class="redirect-home-icon" />
+        </a>
     </footer>
 </body>
 
